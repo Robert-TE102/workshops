@@ -1,0 +1,36 @@
+.body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.7rem;
+  -webkit-text-fill-color: rgba(255, 145, 28, 0.989);
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+.header-img {
+  height: 1900x;
+  width: 1080px;
+}
+
+.button {
+  background-color: rgb(6, 77, 200);
+  text-decoration: dashed;
+  -webkit-text-fill-color: rgb(185, 20, 20);
+  -webkit-text-stroke-width: 1px;
+  size: 20px;
+  height: 35px;
+  width: 100px;
+}
+
+.main {
+  -webkit-background-clip: rgb(178, 112, 12);
+  -webkit-text-stroke-color: rgb(89, 199, 221);
+  -webkit-text-stroke-width: 1px;
+  size: 20px;
+  height: 35px;
+  width: 100px;
+}
+
+.box {
+  background: 100px
+  border: 10px
+}

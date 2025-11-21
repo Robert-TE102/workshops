@@ -1,0 +1,26 @@
+console.log("Hello world!");
+let myName = "Bob";
+console.log(myName);
+const age = 30;
+console.log(age);
+myName = "Jane";
+console.log(myName);
+const newAge = 25;
+console.log(newAge);
+console.log("New");
+const number = 10 + 10 * 10 * 10 * 10;
+console.log(number);
+let A = 1;
+let B = 2;
+console.log(A + B);
+let isAGreaterThanB = A > B;
+let isALessThanB = A < B;
+let isAEqualToB = A === B;
+console.log(isAGreaterThanB);
+console.log(isALessThanB);
+console.log(isAEqualToB);
+let favouriteGame = "3of1 4ofanother";
+let currentCourseDay = 4;
+
+const sentence = `My favourite game is ${favouriteGame}. We're on day ${currentCourseDay} of the course.`;
+console.log(sentence);

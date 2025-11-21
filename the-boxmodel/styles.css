@@ -1,0 +1,37 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(28, 183, 194);
+}
+
+header {
+  position: relative;
+  bottom: 105px;
+  left: 25px;
+  font-size: 100px;
+  color: gold;
+}
+
+img {
+  width: 1000px;
+  height: 1000px;
+}
+
+.chicken-title {
+  position: relative;
+  bottom: 0.5px;
+  left: 100px;
+  color: rgb(199, 17, 17);
+}
+
+footer {
+  position: fixed;
+  bottom: auto;
+  left: auto;
+  font-size: 30px;
+  color: rgb(20, 17, 207);
+}

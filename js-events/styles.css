@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  width: 500px;
+  height: auto;
+  color: aqua;
+}
+
+body {
+  background-color: rgb(217, 11, 49);
+}
