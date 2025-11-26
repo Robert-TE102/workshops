@@ -1,0 +1,27 @@
+.image-container {
+  background: #000;
+  height: 300px;
+  width: 300px;
+}
+
+.p {
+  color: rgb(18, 188, 132);
+  font-size: 150px;
+  padding: 150px;
+  position: fixed;
+}
+h2 {
+  color: rgb(255, 0, 234);
+  font-size: 30px;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 30;
+}
+
+.image-container {
+  background: #000;
+  height: 300;
+  width: 300;
+}

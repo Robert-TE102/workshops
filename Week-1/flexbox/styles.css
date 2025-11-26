@@ -18,7 +18,7 @@ header {
 }
 
 nav {
-  border: 10px solid orange;
+  border: 5px solid orange;
   display: flex;
   flex-direction: column;
 }
@@ -30,6 +30,16 @@ main {
   gap: 5px;
 }
 
+.container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(22, 203, 115);
+}
+
 section {
   border: 5px;
   font-size: 30px;
@@ -37,4 +47,5 @@ section {
 
 footer {
   border: 5px;
+  top: 500px;
 }
