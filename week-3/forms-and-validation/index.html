@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <rel ="stylesheet" href="./styles.css"></rel>
+    <script src="apps.js" defer></script>
+    <title>Forms and Validation</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <id ="form">Forms</id>
+        <label for="userName">Name: </label>
+        <input type="text" name="userName" required />
+        <label for="city">City: </label>
+        <input type="city" name="city" required />
+        <label
+          >Credit card number:
+          <input
+            name="cc"
+            type="text"
+            inputmode="numeric"
+            pattern="[0-9]{8,19}"
+            autocomplete="cc-number"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>More Info</legend>
+        <label for="second hobby">Second Hobby: </label>
+        <input type="text" name="second hobby" placeholder="Fun" required />
+        <label for="contractType"> Does This Work?</label>
+        <select name="contractType" id="">
+          <option value="" disable selected></option>
+          <option value="S111Y">Fun</option>
+          <option value="S222Y">No Fun</option>
+        </select>
+      </fieldset>
+      <button type="Submit">Submit</button>
+      <!--The more validation you add to your inputs, the more accurate the data will be.-->
+    </form>
+  </body>
+</html>
